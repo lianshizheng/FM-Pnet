@@ -1,12 +1,12 @@
 ## About paper
 
-**Title:** FM-Based Positioning via Deep Learning.
+**Title**: FM-Based Positioning via Deep Learning.
 
-**Author:** Shilian Zheng, Jiacheng Hu, Luxin Zhang, Kunfeng Qiu, Jie Chen, Peihan Qi, Zhijin Zhao, and Xiaoniu Yang.
+**Author**: Shilian Zheng, Jiacheng Hu, Luxin Zhang, Kunfeng Qiu, Jie Chen, Peihan Qi, Zhijin Zhao, and Xiaoniu Yang.
 
-**Journal: **IEEE Journal on Selected Areas in Communications.
+**Journal**: IEEE Journal on Selected Areas in Communications.
 
-**Abstract:** Frequency modulation (FM) broadcast signals, regarded as opportunistic signals, hold significant potential for indoor and outdoor positioning applications. The existing FM-based positioning methods primarily rely on received signal strength (RSS) for positioning, the accuracy of which needs improvement. In this paper, we introduce FM-Pnet, an end-to-end FM-based positioning method that leverages deep learning. This method utilizes the time-frequency representation of FM signals as network input, enabling automatically learning of deep features for positioning. We also propose two strategies, noise injection and enriching training samples, to enhance the model's generalization performance over long time spans. We construct datasets for both indoor and outdoor scenarios and conduct extensive experiments to validate the performance of our proposed method. Experimental results demonstrate that FM-Pnet significantly outperforms traditional RSS-based positioning methods in terms of both positioning accuracy and stability.
+**Abstract**: Frequency modulation (FM) broadcast signals, regarded as opportunistic signals, hold significant potential for indoor and outdoor positioning applications. The existing FM-based positioning methods primarily rely on received signal strength (RSS) for positioning, the accuracy of which needs improvement. In this paper, we introduce FM-Pnet, an end-to-end FM-based positioning method that leverages deep learning. This method utilizes the time-frequency representation of FM signals as network input, enabling automatically learning of deep features for positioning. We also propose two strategies, noise injection and enriching training samples, to enhance the model's generalization performance over long time spans. We construct datasets for both indoor and outdoor scenarios and conduct extensive experiments to validate the performance of our proposed method. Experimental results demonstrate that FM-Pnet significantly outperforms traditional RSS-based positioning methods in terms of both positioning accuracy and stability.
 
 
 ## Datasets
@@ -44,18 +44,27 @@ This dataset offers a rich resource for studying FM signals across diverse envir
 **indoor**
 
 [The part 1 of the dataset Indoor](http://localhost/)
+
 [The part 2 of the dataset Indoor](http://localhost/)
+
 [The part 3 of the dataset Indoor](http://localhost/)
 
 **outdoor**
 
 [The part 1 of the dataset Outdoor](http://localhost/)
+
 [The part 2 of the dataset Outdoor](http://localhost/)
+
 [The part 3 of the dataset Outdoor](http://localhost/)
+
 [The part 4 of the dataset Outdoor](http://localhost/)
+
 [The part 5 of the dataset Outdoor](http://localhost/)
+
 [The part 6 of the dataset Outdoor](http://localhost/)
+
 [The part 7 of the dataset Outdoor](http://localhost/)
+
 [The part 8 of the dataset Outdoor](http://localhost/)
 
 ## Citation
