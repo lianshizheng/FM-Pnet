@@ -18,7 +18,7 @@ Our dataset encompasses indoor and outdoor environments, with data collected ove
 The MATLAB code to read this data is as follows：
 
 ```
-file_path = ''
+file_path = 'DDC_F97.5MHz_T2023-10-10_10-16-10-563_05000000sps_CH3.std'
 fid = fopen(file_path);
 pre = fread (fid,50, 'int8');
 if pre(10)==0
