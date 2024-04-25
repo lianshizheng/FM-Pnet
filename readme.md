@@ -1,4 +1,4 @@
-# [FM-Based Positioning via Deep Learning.](http://localhost/)
+# [FM-Based Positioning via Deep Learning.]([http://localhost/](https://www.techrxiv.org/doi/full/10.36227/techrxiv.24580956.v1)
 
 ## About paper
 
@@ -72,6 +72,16 @@ This dataset offers a rich resource for studying FM signals across diverse envir
 ## Citation
 
 If you find this repository helpful, please consider citing:
-
-
+```
+Zheng, Shilian, Jiachen Hu, Luxin Zhang, Kunfeng Qiu, Jie Chen, Peihan Qi, Zhijin Zhao, and Xiaoniu Yang. "FM-Based Positioning via Deep Learning." Authorea Preprints (2023). DOI: 10.36227/techrxiv.24580956.v1
+```
 or
+```
+@article{zheng2023fm,
+  title={FM-Based Positioning via Deep Learning},
+  author={Zheng, Shilian and Hu, Jiachen and Zhang, Luxin and Qiu, Kunfeng and Chen, Jie and Qi, Peihan and Zhao, Zhijin and Yang, Xiaoniu},
+  journal={Authorea Preprints},
+  year={2023},
+  publisher={Authorea}
+}
+```
