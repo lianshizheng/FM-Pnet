@@ -28,7 +28,7 @@ if pre(10)==1
     datatype ='int16';
 end
 if pre(10)==2
-    datatype='int32';
+    datatype ='int32';
 end
 data = fread (fid, datatype) ;
 fclose (fid) ;
@@ -93,7 +93,7 @@ This dataset offers a rich resource for studying FM signals across diverse envir
 
 If you find this repository helpful, please consider citing:
 ```
-Zheng, Shilian, Jiachen Hu, Luxin Zhang, Kunfeng Qiu, Jie Chen, Peihan Qi, Zhijin Zhao, and Xiaoniu Yang. "FM-Based Positioning via Deep Learning." Authorea Preprints (2023). DOI: 10.36227/techrxiv.24580956.v1
+Shilian Zheng, Jiachen Hu, Luxin Zhang, Kunfeng Qiu, Jie Chen, Peihan Qi, Zhijin Zhao, and Xiaoniu Yang. "FM-Based Positioning via Deep Learning." Authorea Preprints (2023). DOI: 10.36227/techrxiv.24580956.v1
 ```
 or
 ```
