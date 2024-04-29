@@ -65,9 +65,9 @@ This dataset offers a rich resource for studying FM signals across diverse envir
 
 **indoor**
 
-[The part 1 of the dataset Indoor](http://localhost/)
+[The part 1 of the dataset Indoor](https://figshare.com/articles/dataset/the_part_1_of_dataset_Indoor/25690560)
 
-[The part 2 of the dataset Indoor](http://localhost/)
+[The part 2 of the dataset Indoor](https://figshare.com/articles/dataset/The_part_2_of_dataset_Indoor/25690326)
 
 [The part 3 of the dataset Indoor](http://localhost/)
 
