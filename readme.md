@@ -18,21 +18,7 @@ Our dataset encompasses indoor and outdoor environments, with data collected ove
 The MATLAB code to read this data is as follows：
 
 ```
-file_path = 'DDC_F97.5MHz_T2023-10-10_10-16-10-563_05000000sps_CH3.std'
-fid = fopen(file_path);
-pre = fread (fid,50, 'int8');
-if pre(10)==0
-    datatype = 'int8';
-end
-if pre(10)==1
-    datatype ='int16';
-end
-if pre(10)==2
-    datatype ='int32';
-end
-data = fread (fid, datatype) ;
-fclose (fid) ;
-sig = data (1:2: end) + 1j*data (2:2:end);
+
 ```
 
 Each day's data folder includes subfolders (25 indoor and 30 outdoor), representing specific collection points. Subfolder names correspond to the numbering of collection points (01-25 for indoor and 01-30 for outdoor), with corresponding coordinates provided.
@@ -65,31 +51,11 @@ This dataset offers a rich resource for studying FM signals across diverse envir
 
 **indoor**
 
-[The part 1 of the dataset Indoor](https://figshare.com/articles/dataset/the_part_1_of_dataset_Indoor/25690560)
 
-[The part 2 of the dataset Indoor](https://figshare.com/articles/dataset/The_part_2_of_dataset_Indoor/25690326)
-
-[The part 3 of the dataset Indoor](https://figshare.com/articles/dataset/The_part_3_of_dataset_Indoor/25690320)
 
 **outdoor**
 
-[The part 1 of the dataset Outdoor](https://figshare.com/articles/dataset/The_part_1_of_dataset_Outdoor/25690299)
 
-[The part 2 of the dataset Outdoor](https://figshare.com/articles/dataset/The_part_2_of_the_dataset_Outdoor_/25714245)
-
-[The part 3 of the dataset Outdoor](https://figshare.com/articles/dataset/The_part_3_of_dataset_Outdoor/25720947)
-
-[The part 4 of the dataset Outdoor](https://figshare.com/articles/dataset/The_part_4_of_dataset_Outdoor/25723548)
-
-[The part 5 of the dataset Outdoor](https://figshare.com/articles/dataset/The_part_5_of_dataset_Outdoor/25750383)
-
-[The part 6 of the dataset Outdoor](https://figshare.com/articles/dataset/The_part_6_of_dataset_Outdoor/25750530)
-
-[The part 7 of the dataset Outdoor](https://figshare.com/articles/dataset/The_part_7_of_dataset_Outdoor/25751094)
-
-[The part 8 of the dataset Outdoor](https://figshare.com/articles/dataset/The_part_8_of_dataset_Outdoor/25751637)
-
-[The part 9 of the dataset Outdoor](https://figshare.com/articles/dataset/The_part_9_of_dataset_Outdoor/25751799)
 
 ## Citation
 
