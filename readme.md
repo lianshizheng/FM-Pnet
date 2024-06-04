@@ -15,10 +15,15 @@
 
 Our dataset encompasses indoor and outdoor environments, with data collected over three days (Day1, 2, and 3) from the same locations. In both settings, Day1 data contains various FM signals, featuring multiple bandwidths. These signals, sampled at a center frequency of 97.5MHz, include two bandwidths: 320kHz (sampled at 400ksps) and 4MHz (sampled at 5Msps). Additionally, outdoor data samples with a bandwidth of 20MHz (sampled at 25Msps) were collected. For cross-day testing, Day2 and Day3 exclusively contain signals with a 4MHz bandwidth. Signals were continuously sampled for approximately 30 seconds at each collection point. The dataset comprises raw broadband signals within the FM frequency range, stored in (.std) file format.
 
-The MATLAB code to read this data is as follows：
+The python code to read this data is as follows：
 
 ```
+import torch
+file_path = r'indoor_day1_4MHz_4096_test.pt'
 
+data = torch.load(file_path)
+
+print(data.shape)
 ```
 
 Each day's data folder includes subfolders (25 indoor and 30 outdoor), representing specific collection points. Subfolder names correspond to the numbering of collection points (01-25 for indoor and 01-30 for outdoor), with corresponding coordinates provided.
@@ -50,12 +55,16 @@ This dataset offers a rich resource for studying FM signals across diverse envir
 ## Access link of these two datasets
 
 **indoor**
+[The part 1 of dataset Indoor](https://figshare.com/articles/dataset/The_part_1_of_dataset_Indoor/25958365)
 
-
+[The part 2 of dataset Indoor](https://figshare.com/articles/dataset/The_part_2_of_dataset_Indoor/25958293)
 
 **outdoor**
+[The part 1 of dataset Outdoor](https://figshare.com/articles/dataset/The_part_1_of_dataset_Outdoor/25962808)
 
+[The part 2 of dataset Outdoor]()
 
+[The part 3 of dataset Outdoor](https://figshare.com/articles/dataset/The_part_3_of_dataset_Outdoor/25963042)
 
 ## Citation
 
